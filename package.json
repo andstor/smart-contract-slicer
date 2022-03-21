@@ -1,0 +1,32 @@
+{
+  "name": "@andstor/smart-contract-slicer",
+  "version": "1.0.0",
+  "description": "Utility for slicing contracts into pieces.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andstor/smart-contract-slicer.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "author": {
+    "name": "André Storhaug",
+    "email": "andr3.storhaug@gmail.com",
+    "url": "https://github.com/andstor"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andstor/smart-contract-slicer/issues"
+  },
+  "homepage": "https://github.com/andstor/smart-contract-slicer#readme",
+  "dependencies": {
+    "@solidity-parser/parser": "^0.14.1",
+    "i": "^0.3.7",
+    "npm": "^8.5.5"
+  }
+}
